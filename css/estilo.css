@@ -1,0 +1,40 @@
+*{
+    margin: 0; padding: 0;
+}
+
+html{
+    background-color: #000000;
+}
+
+body{
+    width: 750px; height: 750px;
+    margin: auto; background-color: #ffc0cb;
+}
+
+header{
+    width: 750px; height: 250px;
+    background-color: #0b0047;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+section#Externo{
+    width: 250px; height: 250px;
+    float: left;
+    color: #fff;
+}
+
+
+
+.caja{
+    position: relative;
+    display: inline-block;
+
+}
+
+.uno{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
